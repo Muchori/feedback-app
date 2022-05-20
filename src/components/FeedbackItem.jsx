@@ -8,11 +8,13 @@ import Card from './shared/Card'
 function FeedbackItem({ item }) {
   const { deleteFeedback, feedbackEdit } = useContext(FeedbackContext)
 
+
   return (
     <Card reverse={false}>
       <div className='num-display'>{item.rating}</div>
       <button onClick={() => deleteFeedback(item.id)} className='close'>
         <FaTimes color='purple' />
+
       </button>
       <button onClick={() => feedbackEdit(item)} className='edit'>
         <FaEdit color='purple' />

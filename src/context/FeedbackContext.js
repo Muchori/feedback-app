@@ -21,6 +21,7 @@ export const FeedbackProvider = ({ children }) => {
     setIsLoading(false)
   }
 
+
   /**
    * Add feedback
    */
@@ -38,6 +39,7 @@ export const FeedbackProvider = ({ children }) => {
   }
 
   /**
+
    * Edit feedback
    */
   const feedbackEdit = (item) => {
