@@ -6,7 +6,9 @@ const FeedbackContext = createContext()
 
 export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState(FeedbackData)
+
   const [editFeedback, setEditFeedback] = useState({ item: {}, edit: false })
+
 
   /**
    * Add feedback
@@ -17,6 +19,7 @@ export const FeedbackProvider = ({ children }) => {
   }
 
   /**
+
    * Edit feedback
    */
   const feedbackEdit = (item) => {
