@@ -2,8 +2,6 @@
 
 Demo link [Feedback App](https://feedback-app-reactjs.netlify.app/)
 
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
