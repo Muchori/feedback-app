@@ -1,6 +1,6 @@
 # Feedback App
 
-Demo [Feedback App](https://feedback-app-reactjs.netlify.app/)
+[Demo Feedback App](https://feedback-app-reactjs.netlify.app/)
 
 
 In the project directory, you can run:
